@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const express = require('express');
 const app = express();
-const port = 8000;
+const PORT = process.env.PORT || 8000;
 
 let dadosAtuais = {};
 
