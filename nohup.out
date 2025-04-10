@@ -3482,3 +3482,18 @@
   'Gift Card Reserva': 10,
   'Gift Card South of Midnight': 7
 }
+🔄 Coletando cashback...
+/home/bot_teams/cashback-bot/index.js:48
+app.listen(port, () => {
+           ^
+
+ReferenceError: port is not defined
+    at Object.<anonymous> (/home/bot_teams/cashback-bot/index.js:48:12)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:173:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.18.2
